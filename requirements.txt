@@ -1,0 +1,27 @@
+# Core app
+streamlit>=1.50,<2.0
+plotly>=6.0
+
+# Data / ML
+pandas>=2.2
+numpy>=1.26
+scikit-learn==1.3.2
+xgboost>=2.0
+lightgbm>=4.0
+shap>=0.45
+joblib>=1.4
+matplotlib>=3.8
+
+# PDF export
+reportlab>=4.0
+
+# Database
+# (sqlite3 is part of the Python standard library — no install needed)
+
+# Config / secrets
+python-dotenv>=1.0
+
+# AI providers (install only the one(s) you plan to use)
+openai>=1.40
+google-generativeai>=0.7
+anthropic>=0.40
